@@ -1,0 +1,11 @@
+Q1 - Is the code generally readable and well-documented?
+A1 – Yes, the code is generally readable and has more comments than a lot of the other ones, so that did help. I could tell what the methods were supposed to do, especially with the searching and median income range parts. My library is a little different, but I could still follow what was going on in theirs without too much trouble. I think the comments helped explain the thought process behind it.
+
+Q2 – Did you find any software defects?
+A2- I did not see any huge defects just from looking at the library code, but I do think there are a couple things that could maybe cause issues. One thing is both methods return IQueryable without being very specific, which works, but feels a little broad. Also the search method depends on the database already having the state names in there and uses ToUpper on both sides, which is fine, but there may be cleaner ways to do that. So nothing major stood out, just a couple spots that could maybe be improved.
+
+Q3 - What was one way that their solution differed from yours?
+A3 – Their solution differed from mine because they used LINQ queries directly in the class library to search and filter the database records. Mine was more built around using the table adapter methods for loading, sorting, and getting stats like total population and averages. So theirs felt more query based, while mine was more adapter and method driven.
+
+Q4 – Do you have any other constructive comments for the author?
+A4 – I would say the comments were helpful, so that was good. Maybe just make the return types a little more specific if possible and keep building on the library so it can do even more than just the search and median range parts. Other than that, I thought it was pretty understandable and laid out well enough.
