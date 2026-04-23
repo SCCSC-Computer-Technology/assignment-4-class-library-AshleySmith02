@@ -1,0 +1,17 @@
+Is the code generally readable and well-documented?
+Yes, the code is well-organized into blocks and comments
+were used often to describe the functions of each task.
+
+Did you find any software defects? 
+No, everything in the code appeared to
+be in order.
+
+What was one way that their solution
+differed from yours?
+They used an IQueryable for theirs to search for states
+whereas I just used the get/set and constructors associated
+with classes.
+
+Do you have any other constructive
+comments for the author?
+I don't have anything else to add, good job!
